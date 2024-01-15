@@ -23,3 +23,10 @@ This is the end to end Machine learning project based on Wine Quality Prediction
 
 5. In Jupyter notebook, The Experiments have been performed. 
 
+6. why to use yaml file:
+
+    ```
+    When some functions are used frequently, so instead of using it components again and again we can make 'util'.
+    ```
+
+7. 
