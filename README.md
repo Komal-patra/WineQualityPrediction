@@ -29,4 +29,17 @@ This is the end to end Machine learning project based on Wine Quality Prediction
     When some functions are used frequently, so instead of using it components again and again we can make 'util'.
     ```
 
-7. 
+7. Update the Common.py file 
+
+8. #### Workflows
+    ```
+        1. update config.yaml
+        2. update schema.yaml
+        3. update params.yaml
+        4. update the entity 
+        5. update the configuration manager in src config
+        6. update the components
+        7. update the pipeline
+        8. update the main.py
+        9. update the app.py
+    ```
