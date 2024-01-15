@@ -21,4 +21,5 @@ This is the end to end Machine learning project based on Wine Quality Prediction
 
 4. create a setup.py file 
 
-5. 
+5. In Jupyter notebook, The Experiments have been performed. 
+
