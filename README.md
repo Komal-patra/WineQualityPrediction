@@ -18,3 +18,7 @@ This is the end to end Machine learning project based on Wine Quality Prediction
     ```
     pip install -r requirements.txt
     ```
+
+4. create a setup.py file 
+
+5. 
