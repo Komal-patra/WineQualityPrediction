@@ -1,6 +1,9 @@
 from WineQuality.config.configuration import ConfigurationManager
 from WineQuality.components.model_evaluation import ModelEvaluation
 from WineQuality.logging import logger
+from WineQuality.utils.common import save_json
+
+import json
 
 STAGE_NAME = "Model evaluation stage"
 

@@ -5,6 +5,8 @@ from urllib.parse import urlparse
 import numpy as np
 import joblib
 from src.WineQuality.entity.config_entity import ModelEvaluationConfig
+from WineQuality.utils.common import save_json
+from pathlib import Path
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):

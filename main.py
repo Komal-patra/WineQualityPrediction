@@ -5,6 +5,8 @@ from src.WineQuality.pipeline.stage_01_data_ingestion import DataIngestionTraini
 from src.WineQuality.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from src.WineQuality.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from src.WineQuality.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from src.WineQuality.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+from src.WineQuality.utils.common import save_json
 
 STAGE_NAME = "Data Ingestion stage"
 try:
