@@ -37,7 +37,7 @@ This is the end to end Machine learning project based on Wine Quality Prediction
         2. update schema.yaml
         3. update params.yaml
         4. update the entity 
-        5. update the configuration manager in src config
+        5. update the configuration manager in src config (jupyter notebook)
         6. update the components
         7. update the pipeline
         8. update the main.py
