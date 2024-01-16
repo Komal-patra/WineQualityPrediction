@@ -57,5 +57,3 @@ This is the end to end Machine learning project based on Wine Quality Prediction
     Now open up your local host 0.0.0.0:8080
     ```
 
-
-    
