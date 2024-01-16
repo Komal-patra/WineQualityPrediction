@@ -43,3 +43,8 @@ This is the end to end Machine learning project based on Wine Quality Prediction
         8. update the main.py
         9. update the app.py
     ```
+    Each component should follow the same above workflow
+
+    schema.yaml have been used to validate the data.
+
+    
