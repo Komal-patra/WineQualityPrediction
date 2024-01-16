@@ -47,4 +47,15 @@ This is the end to end Machine learning project based on Wine Quality Prediction
 
     schema.yaml have been used to validate the data.
 
+8. created an UI app in order to predict:
+
+    ```
+    python app.py
+    ```
+
+    ```bash
+    Now open up your local host 0.0.0.0:8080
+    ```
+
+
     
