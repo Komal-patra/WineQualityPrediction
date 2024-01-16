@@ -5,6 +5,7 @@ from WineQuality.logging import logger
 from WineQuality.utils.common import get_size
 from pathlib import Path
 from src.WineQuality.entity.config_entity import DataValidationConfig
+import pandas as pd
 
 class DataValidation:
     def __init__(self, config: DataValidationConfig):

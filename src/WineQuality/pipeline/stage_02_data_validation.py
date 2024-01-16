@@ -1,7 +1,7 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_validation import DataValiadtion
-from mlProject import logger
-
+from WineQuality.config.configuration import ConfigurationManager
+from WineQuality.components.data_validation import DataValidation
+from WineQuality.logging import logger
+import pandas as pd
 
 STAGE_NAME = "Data Validation stage"
 
@@ -12,7 +12,7 @@ class DataValidationTrainingPipeline:
     def main(self):
         config = ConfigurationManager()
         data_validation_config = config.get_data_validation_config()
-        data_validation = DataValiadtion(config=data_validation_config)
+        data_validation = DataValidation(config=data_validation_config)
         data_validation.validate_all_columns()
 
 

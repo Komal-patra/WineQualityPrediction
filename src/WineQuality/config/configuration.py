@@ -1,6 +1,6 @@
 from src.WineQuality.constants import *
 from src.WineQuality.utils.common import read_yaml, create_directories
-from src.WineQuality.entity.config_entity import (DataIngestionConfig)
+from src.WineQuality.entity.config_entity import (DataIngestionConfig, DataValidationConfig)
 
 class ConfigurationManager:
     def __init__(

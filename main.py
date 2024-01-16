@@ -1,8 +1,8 @@
 #from src.WineQuality.logging import logger
 
 from WineQuality.logging import logger
-from WineQuality.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from WineQuality.pipeline.stage_02_data_validation.py import DataValidationTrainingPipeline
+from src.WineQuality.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from src.WineQuality.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 
 STAGE_NAME = "Data Ingestion stage"
 try:
