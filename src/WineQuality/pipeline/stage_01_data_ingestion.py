@@ -1,6 +1,6 @@
 from WineQuality.config.configuration import ConfigurationManager
 from WineQuality.components.data_ingestion import DataIngestion
-from WineQuality import logger
+from WineQuality.logging import logger
 
 
 STAGE_NAME = "Data Ingestion stage"
